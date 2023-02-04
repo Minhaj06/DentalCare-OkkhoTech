@@ -1,3 +1,59 @@
+.circleIcon {
+  width: 4rem;
+  height: 4rem;
+  background-image: -moz-linear-gradient(0deg, rgb(9, 152, 230) 0%, rgb(54, 96, 217) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(9, 152, 230) 0%, rgb(54, 96, 217) 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(9, 152, 230) 0%, rgb(54, 96, 217) 100%);
+  color: var(--textColorWhite);
+  border-radius: 50%;
+  font-size: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleIcon:hover {
+  background-image: -moz-linear-gradient(
+    0deg,
+    rgb(9, 152, 230) 0%,
+    rgb(54, 96, 217) 100%
+  ) !important;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgb(9, 152, 230) 0%,
+    rgb(54, 96, 217) 100%
+  ) !important;
+  background-image: -ms-linear-gradient(
+    0deg,
+    rgb(9, 152, 230) 0%,
+    rgb(54, 96, 217) 100%
+  ) !important;
+}
+
+.circleIcon a {
+  display: block;
+}
+
+.bgImgNone {
+  background-image: none !important;
+}
+
+.hoverTheme,
+.hoverWhite,
+.hoverThemeDark {
+  transition: all 0.2s linear;
+}
+.hoverTheme:hover {
+  color: var(--themeColor) !important;
+}
+.hoverWhite:hover {
+  color: var(--textColorWhite) !important;
+}
+.hoverThemeDark:hover {
+  color: var(--themeColorDark) !important;
+}
+
 /* colors */
 .themeColor {
   color: var(--themeColor) !important;
@@ -17,8 +73,14 @@
 .textColorLight2 {
   color: var(--textColorLight2) !important;
 }
+.textColorLight3 {
+  color: var(--textColorLight3) !important;
+}
 .textColorDark {
   color: var(--textColorDark) !important;
+}
+.textColorDark2 {
+  color: var(--textColorDark2) !important;
 }
 .textColorBlack {
   color: var(--textColorBlack) !important;
@@ -43,8 +105,14 @@
 .bgLight2 {
   background-color: var(--textColorLight2) !important;
 }
+.bgLight3 {
+  background-color: var(--textColorLight3) !important;
+}
 .bgDark {
   background-color: var(--textColorDark) !important;
+}
+.bgDark2 {
+  background-color: var(--textColorDark2) !important;
 }
 .bgBlack {
   background-color: var(--textColorBlack) !important;
@@ -146,7 +214,7 @@
   border-bottom-right-radius: 1rem !important;
 }
 
-/* Spacing */
+/* Padding */
 .p-20 {
   padding: 2rem !important;
 }
@@ -193,4 +261,101 @@
 .py-25 {
   padding-top: 2.5rem !important;
   padding-bottom: 2.5rem !important;
+}
+
+.p-50 {
+  padding: 5rem !important;
+}
+.ps-50 {
+  padding-left: 5rem !important;
+}
+.pe-50 {
+  padding-right: 5rem !important;
+}
+.pt-50 {
+  padding-top: 5rem !important;
+}
+.pb-50 {
+  padding-bottom: 5rem !important;
+}
+.px-50 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+}
+.py-50 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+/* Maring */
+.m-20 {
+  margin: 2rem !important;
+}
+.ms-20 {
+  margin-left: 2rem !important;
+}
+.me-20 {
+  margin-right: 2rem !important;
+}
+.mt-20 {
+  margin-top: 2rem !important;
+}
+.mb-20 {
+  margin-bottom: 2rem !important;
+}
+.mx-20 {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+.my-20 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.m-25 {
+  margin: 2.5rem !important;
+}
+.ms-25 {
+  margin-left: 2.5rem !important;
+}
+.me-25 {
+  margin-right: 2.5rem !important;
+}
+.mt-25 {
+  margin-top: 2.5rem !important;
+}
+.mb-25 {
+  margin-bottom: 2.5rem !important;
+}
+.mx-25 {
+  margin-left: 2.5rem !important;
+  margin-right: 2.5rem !important;
+}
+.my-25 {
+  margin-top: 2.5rem !important;
+  margin-bottom: 2.5rem !important;
+}
+
+.m-50 {
+  margin: 5rem !important;
+}
+.ms-50 {
+  margin-left: 5rem !important;
+}
+.me-50 {
+  margin-right: 5rem !important;
+}
+.mt-50 {
+  margin-top: 5rem !important;
+}
+.mb-50 {
+  margin-bottom: 5rem !important;
+}
+.mx-50 {
+  margin-left: 5rem !important;
+  margin-right: 5rem !important;
+}
+.my-50 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
 }

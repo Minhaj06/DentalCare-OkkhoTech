@@ -1,5 +1,10 @@
 .logo {
   width: 19rem;
+  max-width: 19rem;
+}
+.logoSmall {
+  width: 16rem;
+  max-width: 16rem;
 }
 
 #stickyNav {

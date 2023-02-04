@@ -65,11 +65,11 @@ p {
 } */
 
 .form-control {
-  background-color: var(--textColorLight2);
+  background-color: var(--textColorLight3);
 }
 
 .form-control:focus {
-  background-color: var(--textColorLight2);
+  background-color: var(--textColorLight3);
 }
 
 button,
@@ -92,17 +92,6 @@ a {
 
 a:hover {
   color: var(--textColor);
-}
-
-.hoverTheme,
-.hoverThemeDark {
-  transition: all 0.2s linear;
-}
-.hoverTheme:hover {
-  color: var(--themeColor) !important;
-}
-.hoverThemeDark:hover {
-  color: var(--themeColorDark) !important;
 }
 
 img {
