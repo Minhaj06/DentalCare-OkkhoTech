@@ -1,0 +1,16 @@
+:root {
+  /* colors */
+  --themeColor: rgb(9, 152, 230);
+  --themeColorDark: rgb(54, 96, 217);
+  --textColor: #0e264f;
+  --textColorLight: #777777;
+  --textColorLight2: #f8f8f8;
+  --textColorDark: #00173c;
+
+  --textColorWhite: #ffffff;
+  --textColorBlack: #000000;
+
+  /* font */
+  --fontPoppins: "Poppins", sans-serif;
+  --fontRoboto: "Roboto", sans-serif;
+}

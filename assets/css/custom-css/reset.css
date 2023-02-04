@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  /* transition: all 0.2s linear; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--fontRoboto);
+  color: var(--textColor);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  padding-right: var(--bs-gutter-x, 1.5rem);
+  padding-left: var(--bs-gutter-x, 1.5rem);
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* .h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+} */
+
+.form-control {
+  background-color: var(--textColorLight2);
+}
+
+.form-control:focus {
+  background-color: var(--textColorLight2);
+}
+
+button,
+.btn,
+.form-control {
+  border: none;
+  box-shadow: none;
+}
+button:focus,
+.btn:focus,
+.form-control:focus {
+  border: none;
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--textColor);
+}
+
+a:hover {
+  color: var(--textColor);
+}
+
+.hoverTheme,
+.hoverThemeDark {
+  transition: all 0.2s linear;
+}
+.hoverTheme:hover {
+  color: var(--themeColor) !important;
+}
+.hoverThemeDark:hover {
+  color: var(--themeColorDark) !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

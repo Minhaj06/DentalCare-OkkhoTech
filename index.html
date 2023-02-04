@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Dental Care</title>
+</head>
+
+<body>
+
+    <!-- Header Starts Here -->
+    <header class="header" id="header">
+        <!-- Header Top -->
+        <div class="header-top bgText text-white py-4">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center gap-4 gap-xl-5 fs-12 py-2">
+                        <div class="">
+                            <span class="themeColorDark me-2">
+                                <i class="fa-regular fa-envelope"></i>
+                            </span>
+                            <span>
+                                info@example.com
+                            </span>
+                        </div>
+                        <div class="">
+                            <span class="themeColorDark me-2">
+                                <i class="fa-solid fa-phone-flip"></i>
+                            </span>
+                            <span>
+                                +91-7052-101-786
+                            </span>
+                        </div>
+                    </div>
+                    <div class="">
+                        <ul class="fs-18">
+                            <li class="d-inline-block ms-4">
+                                <a class="text-white hoverThemeDark" href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="d-inline-block ms-4">
+                                <a class="text-white hoverThemeDark" href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="d-inline-block ms-4">
+                                <a class="text-white hoverThemeDark" href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="d-inline-block ms-4">
+                                <a class="text-white hoverThemeDark" href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Main -->
+        <nav class="navbar navbar-expand-lg bg-transparent pt-5 position-relative" style="z-index: 1000">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul
+                        class="navbar-nav ms-auto mb-2 mb-lg-0 fontRoboto fw-semibold align-items-center gap-5 text-capitalize">
+                        <li class="nav-item">
+                            <a class="nav-link textColor hoverThemeDark" aria-current="page" href="index.html">
+                                Home
+                                <span class="themeColorDark">+</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textColor hoverThemeDark" aria-current="page" href="index.html">
+                                About Us
+                                <span class="themeColorDark">+</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textColor hoverThemeDark" aria-current="page" href="blog.html">
+                                Blog
+                                <span class="themeColorDark">+</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textColor hoverThemeDark" aria-current="page" href="contact.html">
+                                About Us
+                                <span class="themeColorDark">+</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btnPrimary py-4" aria-current="page" href="contact.html">
+                                Book appoinment
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Sticy Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white shadow py-4" id="stickyNav">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="assets/images/logo.png" alt="Logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul
+                        class="navbar-nav ms-auto mb-2 mb-lg-0 fontRoboto fw-semibold align-items-center gap-5 text-capitalize">
+                        <li class="nav-item">
+                            <a class="nav-link textColor hoverThemeDark" aria-current="page" href="index.html">
+                                Home
+                                <span class="themeColorDark">+</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textColor hoverThemeDark" aria-current="page" href="index.html">
+                                About Us
+                                <span class="themeColorDark">+</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textColor hoverThemeDark" aria-current="page" href="blog.html">
+                                Blog
+                                <span class="themeColorDark">+</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textColor hoverThemeDark" aria-current="page" href="contact.html">
+                                About Us
+                                <span class="themeColorDark">+</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btnPrimary py-4" aria-current="page" href="contact.html">
+                                Book appoinment
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Ends Here -->
+
+
+
+    <!-- Main Contents Start Here -->
+    <main class="main" id="main">
+
+        <!-- Home Banner Section Starts Here -->
+        <section class="homeBanner pb-0">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="">
+                            <h3 class="text-uppercase themeColorDark fw-bold fontPoppins h1 lh-base">Welcome to decare
+                            </h3>
+                            <h1 class="text-capitalize fw-bold fontPoppins fs-80 mb-5">We are best dental service
+                            </h1>
+                            <p class="fs-18 textColorLight lh-base mb-5 pb-3">
+                                Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex,
+                                dapibus purus sapien, cursus sed
+                                nisl tristique, commodo gravida lectus non.
+                            </p>
+
+                            <form action="">
+                                <div class="input-group mb-3 bg-white border-0 p-4 shadow">
+                                    <input type="email" class="form-control px-4 fs-15"
+                                        placeholder="Your Email Address..." required>
+                                    <span class="input-group-text border-0 bg-transparent p-0">
+                                        <button class="btn btnPrimary">Get call back</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative d-flex flex-column justify-content-center">
+                            <img class="w-100" src="assets/images/homeBanner.png" alt="">
+                            <div class="flotingInfo">
+                                <div class="aliment-icon-red">
+                                    <img src="assets/images/floatingDocImg.png" alt="icon">
+                                </div>
+                                <div class="flotingInfoContent">
+                                    <h3 class="fontPoppins fw-bold fs-15">Dr. Mubara Doe</h3>
+                                    <p class="textColorLight fs-15">Best Dental</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home Banner Section Ends Here -->
+
+
+        <!-- Service Section Starts Here -->
+        <section class="services">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-12 mb-5">
+                        <div class="sectionHeader text-center fontPoppins">
+                            <h3 class="text-uppercase themeColorDark fw-bold lh-base">Our services</h3>
+                            <h1 class="text-capitalize fs-50 fw-bold">What we provide</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="row g-4 text-end">
+
+                            <div class="col-lg-12">
+                                <div class="serviceBox d-flex gap-4 border rounded-4 p-25">
+                                    <div class="serviceDetails">
+                                        <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Root canal</h3>
+                                        <p class="fs-15 textColorLight lh-base">
+                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                        </p>
+                                    </div>
+                                    <div class="serviceImg">
+                                        <img src="assets/images/rootCanal.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="serviceBox d-flex gap-4 border rounded-4 p-25">
+                                    <div class="serviceDetails">
+                                        <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Alignment Teeth</h3>
+                                        <p class="fs-15 textColorLight lh-base">
+                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                        </p>
+                                    </div>
+                                    <div class="serviceImg">
+                                        <img src="assets/images/alignmentTeeth.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="serviceBox d-flex gap-4 border rounded-4 p-25">
+                                    <div class="serviceDetails">
+                                        <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Cosmetic teeth</h3>
+                                        <p class="fs-15 textColorLight lh-base">
+                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                        </p>
+                                    </div>
+                                    <div class="serviceImg">
+                                        <img src="assets/images/cosmeticTeeth.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="">
+                            <img class="w-100" src="assets/images/serviceTeeth.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="row g-4 text-start">
+
+                            <div class="col-lg-12">
+                                <div class="serviceBox d-flex gap-4 border rounded-4 p-25">
+                                    <div class="serviceImg">
+                                        <img src="assets/images/oralHygiene.png" alt="">
+                                    </div>
+                                    <div class="serviceDetails">
+                                        <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Oral hygiene</h3>
+                                        <p class="fs-15 textColorLight lh-base">
+                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="serviceBox d-flex gap-4 border rounded-4 p-25">
+                                    <div class="serviceImg">
+                                        <img src="assets/images/liveAdvisory.png" alt="">
+                                    </div>
+                                    <div class="serviceDetails">
+                                        <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Live advisory</h3>
+                                        <p class="fs-15 textColorLight lh-base">
+                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="serviceBox d-flex gap-4 border rounded-4 p-25">
+                                    <div class="serviceImg">
+                                        <img src="assets/images/cavityInspection.png" alt="">
+                                    </div>
+                                    <div class="serviceDetails">
+                                        <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Cavity inspection
+                                        </h3>
+                                        <p class="fs-15 textColorLight lh-base">
+                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Service Section Ends Here -->
+
+
+        <!-- About Section Starts Here -->
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="aboutImg position-relative d-flex align-items-center">
+                            <img class="img-fluid" src="assets/images/aboutBanner.png" alt="">
+                            <div class="experienceHighlight position-absolute bg-white d-flex align-items-center gap-4 fontPoppins px-25 py-4 rounded-4 shadow"
+                                style="right: 8rem;">
+                                <h1 class="fs-50 fw-bold themeColorDark">06</h1>
+                                <h4 class="fs-18 fw-semibold">
+                                    Years of
+                                    <br>
+                                    Experience
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="aboutDetails">
+                            <h4 class="fs-18 fw-bold fontPoppins themeColorDark text-uppercase mb-4">About us</h4>
+                            <h1 class="fs-70 fw-bold fontPoppins textColorDark text-capitalize mb-5">
+                                We Care For Your Dental Health
+                            </h1>
+
+                            <p class="fs-15 textColorLight lh-base mb-5">
+                                Aliquam ac sem et diam iaculis efficitur. Morbi in enim odio. Nullam quis volutpat est,
+                                sed dapibus sapien. Cras
+                                condimentum eu velit id tempor. Curabitur purus sapien, cursus sed nisl tristique,
+                                commodo vehicula arcu.
+                                <br>
+                                <br>
+                                Aliquam erat volutpat. Aliquam enim massa, sagittis blandit ex mattis, ultricies posuere
+                                sapien. Morbi a dignissim enim.
+                                Fusce elementum, augue in elementum porta, sapien nunc volutpat ex, a accumsan nunc
+                                lectus eu lectus.
+                            </p>
+
+                            <a href="about.html" class="btn btnPrimary py-4">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section Ends Here -->
+
+
+    </main>
+    <!-- Main Contents End Here -->
+
+
+    <!-- Footer Starts Here -->
+    <footer class="footer" id="footer"></footer>
+    <!-- Footer Ends Here -->
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

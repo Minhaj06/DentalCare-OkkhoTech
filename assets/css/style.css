@@ -1,0 +1,53 @@
+/* Home Banner Section CSS Start Here */
+.homeBanner {
+  background-image: url(../images/homeBannerBg.png);
+  background-size: cover;
+  margin-top: -9rem;
+  padding-top: 11rem;
+  position: relative;
+}
+
+.flotingInfo {
+  position: absolute;
+  background-color: var(--textColorWhite);
+  border-radius: 3px;
+  padding: 1.5rem;
+  box-shadow: 0 3rem 6rem 0 rgb(0, 0, 0, 0.2);
+  right: -6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  z-index: 1;
+  animation: movedelement 5s linear infinite;
+  width: 25rem;
+}
+
+@keyframes movedelement {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  25% {
+    -webkit-transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
+  }
+  50% {
+    -webkit-transform: translate(5px, 5px);
+    transform: translate(5px, 5px);
+  }
+  75% {
+    -webkit-transform: translate(10px, -5px);
+    transform: translate(10px, -5px);
+  }
+  to {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+/* Home Banner Section CSS End Here */
+
+/* Service Seciton CSS Start Here */
+.services .serviceBox .serviceImg img {
+  width: 7rem;
+}
+/* Service Seciton CSS End Here */

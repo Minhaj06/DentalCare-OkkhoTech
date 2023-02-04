@@ -1,0 +1,19 @@
+.btnPrimary {
+  border-radius: 0.4rem;
+  color: var(--textColorWhite);
+  font-size: 1.6rem;
+  padding: 2rem 3rem;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  background-image: -moz-linear-gradient(0deg, rgb(9, 152, 230) 0%, rgb(54, 96, 217) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(9, 152, 230) 0%, rgb(54, 96, 217) 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(9, 152, 230) 0%, rgb(54, 96, 217) 100%);
+  border: none;
+}
+
+.btnPrimary:hover {
+  color: var(--textColorWhite);
+  background-image: -moz-linear-gradient(0deg, rgb(54, 96, 217) 0%, rgb(9, 152, 230) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgb(54, 96, 217) 0%, rgb(9, 152, 230) 100%);
+  background-image: -ms-linear-gradient(0deg, rgb(54, 96, 217) 0%, rgb(9, 152, 230) 100%);
+}
