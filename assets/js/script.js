@@ -12,9 +12,9 @@ function scrollFunction() {
 }
 
 // Testimonial Carousel
-const featuredCategoriesSwiper = new Swiper(".testimonialSwiper", {
+const teastimonialSwiper = new Swiper(".testimonialSwiper", {
   loop: true,
-  spaceBetween: 10,
+  spaceBetween: 30,
   breakpoints: {
     360: {
       slidesPerView: 2,
@@ -25,6 +25,27 @@ const featuredCategoriesSwiper = new Swiper(".testimonialSwiper", {
   },
   pagination: {
     el: ".testimonialSwiper .swiper-pagination",
+    clickable: true,
+  },
+});
+
+// Testimonial Carousel
+const teamSwiper = new Swiper(".teamSwiper", {
+  loop: true,
+  spaceBetween: 30,
+  breakpoints: {
+    360: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1200: {
+      slidesPerView: 4,
+    },
+  },
+  pagination: {
+    el: ".teamSwiper .swiper-pagination",
     clickable: true,
   },
 });

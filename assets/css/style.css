@@ -53,10 +53,32 @@
 /* Service Seciton CSS End Here */
 
 /* Testimonial Section CSS Start Here */
-.testimonial .testimonialSwiper .swiper-pagination-bullet {
-  background: var(--themeColor);
+.swiper-pagination-bullet {
+  background: var(--themeColorDark);
   width: 1rem;
   height: 1rem;
   border-radius: 2px;
 }
 /* Testimonial Section CSS End Here */
+
+/* Team Section CSS Start Here */
+.team .teamMember {
+  transition: 0.3s linear;
+}
+
+.team .teamMember:hover .teamMemberInfo h4 a {
+  color: var(--themeColorDark);
+}
+
+.team .teamMember .teamMemberSocial a {
+  color: var(--themeColorDark);
+  background-color: #d7dff7;
+  transition: 0.3s linear;
+}
+
+.team .teamMember .teamMemberSocial a:hover {
+  color: var(--textColorWhite);
+  background-color: var(--themeColorDark);
+  background-image: none !important;
+}
+/* Team Section CSS End Here */
