@@ -4,10 +4,10 @@ window.onscroll = function () {
 };
 function scrollFunction() {
   var sn = document.getElementById("stickyNav");
-  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+  if (document.body.scrollTop > 140 || document.documentElement.scrollTop > 140) {
     sn.style.top = "0";
   } else {
-    sn.style.top = "-85px";
+    sn.style.top = "-95px";
   }
 }
 
