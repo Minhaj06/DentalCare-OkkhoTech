@@ -10,3 +10,21 @@ function scrollFunction() {
     sn.style.top = "-85px";
   }
 }
+
+// Testimonial Carousel
+const featuredCategoriesSwiper = new Swiper(".testimonialSwiper", {
+  loop: true,
+  spaceBetween: 10,
+  breakpoints: {
+    360: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+  },
+  pagination: {
+    el: ".testimonialSwiper .swiper-pagination",
+    clickable: true,
+  },
+});

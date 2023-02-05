@@ -51,3 +51,12 @@
   width: 7rem;
 }
 /* Service Seciton CSS End Here */
+
+/* Testimonial Section CSS Start Here */
+.testimonial .testimonialSwiper .swiper-pagination-bullet {
+  background: var(--themeColor);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 2px;
+}
+/* Testimonial Section CSS End Here */

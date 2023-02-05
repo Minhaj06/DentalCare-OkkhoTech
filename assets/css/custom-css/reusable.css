@@ -114,6 +114,9 @@
 .bgLight3 {
   background-color: var(--textColorLight3) !important;
 }
+.bgLight4 {
+  background-color: var(--textColorLight4) !important;
+}
 .bgDark {
   background-color: var(--textColorDark) !important;
 }
