@@ -64,17 +64,10 @@ p {
   margin-bottom: 0;
 } */
 
-.form-control {
-  background-color: var(--textColorLight3);
-}
-
-.form-control:focus {
-  background-color: var(--textColorLight3);
-}
-
 button,
 .btn,
-.form-control {
+.form-control,
+.form-select {
   border: none;
   box-shadow: none;
 }
