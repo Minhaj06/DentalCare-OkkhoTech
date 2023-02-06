@@ -266,3 +266,12 @@
 }
 
 /* Single Service Page CSS End Here */
+
+/* Contact Page CSS Start Here */
+.contactForm .form-control {
+  border: 1px solid var(--textColorLight);
+}
+.contactForm .form-control:focus {
+  border: 1px solid var(--textColorLight);
+}
+/* Contact Page CSS End Here */
