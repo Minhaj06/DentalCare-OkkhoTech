@@ -49,3 +49,26 @@ const teamSwiper = new Swiper(".teamSwiper", {
     clickable: true,
   },
 });
+
+$(".grid").masonry({
+  itemSelector: ".grid-item",
+  columnWidth: ".grid-sizer",
+  percentPosition: true,
+});
+
+/**
+ *
+ *
+ *
+ *
+ *
+ */
+
+$(document).ready(function () {
+  $(".popup-image").magnificPopup({
+    type: "image",
+    gallery: {
+      enabled: true,
+    },
+  });
+});

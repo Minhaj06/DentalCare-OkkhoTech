@@ -21,7 +21,10 @@ body {
 }
 
 section {
-  padding: 6rem 0;
+  padding: 7rem 0;
+}
+footer {
+  margin-top: 3rem;
 }
 
 .container,
@@ -33,6 +36,13 @@ section {
 .container-xxl {
   padding-right: var(--bs-gutter-x, 1.5rem);
   padding-left: var(--bs-gutter-x, 1.5rem);
+}
+
+@media (min-width: 1500px) {
+  .container-fluid {
+    padding-right: var(--bs-gutter-x, 5rem);
+    padding-left: var(--bs-gutter-x, 5rem);
+  }
 }
 
 p {
