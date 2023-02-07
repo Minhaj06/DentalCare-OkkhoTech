@@ -45,6 +45,12 @@
   }
 }
 
+@media (max-width: 450px) {
+  .booking .bookingBox {
+    padding: 3rem !important;
+  }
+}
+
 @media (max-width: 350px) {
   html {
     font-size: 55%;

@@ -49,7 +49,7 @@ const teamSwiper = new Swiper(".teamSwiper", {
 
 // Gallery Image Popup
 $(document).ready(function () {
-  $(".popup-image").magnificPopup({
+  $(".popupImage").magnificPopup({
     type: "image",
     gallery: {
       enabled: true,
