@@ -24,6 +24,11 @@ section {
   margin-bottom: 10rem;
 }
 
+section.bgLight4 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .container,
 .container-fluid,
 .container-lg,
