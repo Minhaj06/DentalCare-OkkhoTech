@@ -8,6 +8,9 @@
   .fs-60 {
     font-size: 5rem !important;
   }
+  .fs-50 {
+    font-size: 4.5rem !important;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -28,9 +31,18 @@
   .fs-60 {
     font-size: 4rem !important;
   }
+  .fs-50 {
+    font-size: 4rem !important;
+  }
 }
 
 @media (max-width: 767.98px) {
+  .breadcrumbArea {
+    min-height: 30rem;
+  }
+  .contactFormArea {
+    padding: 3rem !important;
+  }
 }
 
 @media (max-width: 350px) {

@@ -4,7 +4,6 @@
   background-position: center;
   min-height: 45rem;
   background-color: var(--bgText);
-  margin-bottom: 3rem;
 }
 
 .breadcrumbArea .breadcrumb-item,
