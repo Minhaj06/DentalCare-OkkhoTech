@@ -38,7 +38,8 @@
         <div class="header-top bgText text-white py-4">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
-                    <div class="d-flex align-items-center gap-4 gap-xl-5 fs-12 py-2">
+                    <div
+                        class="d-flex flex-column flex-sm-row align-items-center gap-2 gap-sm-4 gap-xl-5 fs-12 py-sm-2">
                         <div class="">
                             <span class="themeColorDark me-2">
                                 <i class="fa-regular fa-envelope"></i>
@@ -58,22 +59,22 @@
                     </div>
                     <div class="">
                         <ul class="fs-18">
-                            <li class="d-inline-block ms-4">
+                            <li class="d-inline-block ms-3 ms-sm-4">
                                 <a class="text-white hoverThemeDark" href="#">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </a>
                             </li>
-                            <li class="d-inline-block ms-4">
+                            <li class="d-inline-block ms-3 ms-sm-4">
                                 <a class="text-white hoverThemeDark" href="#">
                                     <i class="fa-brands fa-instagram"></i>
                                 </a>
                             </li>
-                            <li class="d-inline-block ms-4">
+                            <li class="d-inline-block ms-3 ms-sm-4">
                                 <a class="text-white hoverThemeDark" href="#">
                                     <i class="fa-brands fa-twitter"></i>
                                 </a>
                             </li>
-                            <li class="d-inline-block ms-4">
+                            <li class="d-inline-block ms-3 ms-sm-4">
                                 <a class="text-white hoverThemeDark" href="#">
                                     <i class="fa-brands fa-youtube"></i>
                                 </a>
@@ -86,21 +87,22 @@
         </div>
 
         <!-- Header Main -->
-        <nav class="navbar navbar-expand-lg bg-transparent py-20 position-relative" style="z-index: 1000">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent py-20 position-relative headerMain"
+            style="z-index: 1000">
             <div class="container">
                 <a class="navbar-brand logo" href="index.html">
                     <img src="assets/images/logo.png" alt="Logo">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler border-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarMain">
                     <ul
-                        class="navbar-nav ms-auto mb-2 mb-lg-0 fontRoboto fw-semibold align-items-center gap-5 text-capitalize">
+                        class="navbar-nav ms-auto mt-4 mt-lg-0 mb-2 mb-lg-0 fontRoboto fw-semibold align-items-center gap-4 gap-lg-5 text-capitalize">
                         <li class="nav-item">
                             <a class="nav-link textColor hoverThemeDark" aria-current="page" href="index.html">
                                 Home
@@ -136,21 +138,21 @@
         </nav>
 
         <!-- Sticy Navbar -->
-        <nav class="navbar navbar-expand-lg bg-white shadow py-20" id="stickyNav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-20" id="stickyNav">
             <div class="container">
                 <a class="navbar-brand logo" href="index.html">
                     <img src="assets/images/logo.png" alt="Logo">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler border-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarMainSticy" aria-controls="navbarMainSticy" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarMainSticy">
                     <ul
-                        class="navbar-nav ms-auto mb-2 mb-lg-0 fontRoboto fw-semibold align-items-center gap-5 text-capitalize">
+                        class="navbar-nav ms-auto mt-4 mt-lg-0 mb-2 mb-lg-0 fontRoboto fw-semibold align-items-center gap-4 gap-lg-5 text-capitalize">
                         <li class="nav-item">
                             <a class="nav-link textColor hoverThemeDark" aria-current="page" href="index.html">
                                 Home
@@ -188,7 +190,6 @@
     <!-- Header Ends Here -->
 
 
-
     <!-- Main Contents Start Here -->
     <main class="main" id="main">
 
@@ -196,9 +197,9 @@
         <section class="homeBanner pb-0">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-md-6">
                         <div class="">
-                            <h3 class="text-uppercase themeColorDark fw-bold fontPoppins h1 lh-base">Welcome to decare
+                            <h3 class="text-uppercase themeColorDark fw-bold fontPoppins fs-1 lh-base">Welcome to decare
                             </h3>
                             <h1 class="text-capitalize fw-bold fontPoppins fs-80 mb-5">We are best dental service
                             </h1>
@@ -219,7 +220,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-md-6">
                         <div class="position-relative d-flex flex-column justify-content-center">
                             <img class="w-100" src="assets/images/homeBanner.png" alt="">
                             <div class="flotingInfo">
@@ -250,15 +251,15 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="row g-4 text-end">
 
                             <div class="col-lg-12">
                                 <div class="serviceBox d-flex gap-4 border rounded-4 p-25">
-                                    <div class="serviceDetails">
+                                    <div class="serviceInfo">
                                         <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Root canal</h3>
                                         <p class="fs-15 textColorLight lh-base">
-                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                            Aenean eleifend turpis tellus, nec mb-0 laoreet metus elementum ac.
                                         </p>
                                     </div>
                                     <div class="serviceImg">
@@ -269,10 +270,10 @@
 
                             <div class="col-lg-12">
                                 <div class="serviceBox d-flex gap-4 border rounded-4 p-25">
-                                    <div class="serviceDetails">
+                                    <div class="serviceInfo">
                                         <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Alignment Teeth</h3>
                                         <p class="fs-15 textColorLight lh-base">
-                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                            Aenean eleifend turpis tellus, nec mb-0 laoreet metus elementum ac.
                                         </p>
                                     </div>
                                     <div class="serviceImg">
@@ -283,10 +284,10 @@
 
                             <div class="col-lg-12">
                                 <div class="serviceBox d-flex gap-4 border rounded-4 p-25">
-                                    <div class="serviceDetails">
+                                    <div class="serviceInfo">
                                         <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Cosmetic teeth</h3>
                                         <p class="fs-15 textColorLight lh-base">
-                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                            Aenean eleifend turpis tellus, nec mb-0 laoreet metus elementum ac.
                                         </p>
                                     </div>
                                     <div class="serviceImg">
@@ -298,13 +299,13 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 d-none d-lg-block">
                         <div class="">
                             <img class="w-100" src="assets/images/serviceTeeth.png" alt="">
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="row g-4 text-start">
 
                             <div class="col-lg-12">
@@ -312,10 +313,10 @@
                                     <div class="serviceImg">
                                         <img src="assets/images/oralHygiene.png" alt="">
                                     </div>
-                                    <div class="serviceDetails">
+                                    <div class="serviceInfo">
                                         <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Oral hygiene</h3>
                                         <p class="fs-15 textColorLight lh-base">
-                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                            Aenean eleifend turpis tellus, nec mb-0 laoreet metus elementum ac.
                                         </p>
                                     </div>
                                 </div>
@@ -326,10 +327,10 @@
                                     <div class="serviceImg">
                                         <img src="assets/images/liveAdvisory.png" alt="">
                                     </div>
-                                    <div class="serviceDetails">
+                                    <div class="serviceInfo">
                                         <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Live advisory</h3>
                                         <p class="fs-15 textColorLight lh-base">
-                                            Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
+                                            Aenean eleifend turpis tellus, nec mb-0 laoreet metus elementum ac.
                                         </p>
                                     </div>
                                 </div>
@@ -340,10 +341,10 @@
                                     <div class="serviceImg">
                                         <img src="assets/images/cavityInspection.png" alt="">
                                     </div>
-                                    <div class="serviceDetails">
+                                    <div class="serviceInfo">
                                         <h3 class="textColorDark fw-bold lh-base fontPoppins fs-22">Cavity inspection
                                         </h3>
-                                        <p class="fs-15 textColorLight lh-base">
+                                        <p class="fs-15 textColorLight lh-base mb-0">
                                             Aenean eleifend turpis tellus, nec laoreet metus elementum ac.
                                         </p>
                                     </div>
@@ -362,12 +363,12 @@
         <!-- About Section Starts Here -->
         <section class="about">
             <div class="container">
-                <div class="row">
+                <div class="row g-5">
                     <div class="col-lg-6">
                         <div class="aboutImg position-relative d-flex align-items-center">
                             <img class="img-fluid" src="assets/images/aboutBanner.png" alt="">
-                            <div class="experienceHighlight position-absolute bg-white d-flex align-items-center gap-4 fontPoppins px-25 py-4 rounded-4 shadow"
-                                style="right: 8rem;">
+                            <div
+                                class="experienceHighlight position-absolute bg-white d-flex align-items-center gap-4 fontPoppins px-25 py-4 rounded-4 shadow end-0 d-none d-xl-flex">
                                 <h1 class="fs-50 fw-bold themeColorDark">06</h1>
                                 <h4 class="fs-18 fw-semibold">
                                     Years of
@@ -568,13 +569,13 @@
             style="background-image:url(assets/images/welcomeBannerBG.png); background-repeat: no-repeat; background-position: bottom;">
             <div class="container">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-5">
+                    <div class="col-md-5">
                         <div class="welcomeBannerImg">
                             <img class="w-100 h-auto" src="assets/images/welcomeBannerImg.png" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="welcomeBannerText text-capitalize pt-60 ps-5">
+                    <div class="col-md-7">
+                        <div class="welcomeBannerText text-capitalize pt-60 pb-5 ps-5">
                             <h4 class="fs-18 fw-bold fontPoppins themeColorDark mb-4">About us</h4>
                             <h1 class="fs-60 fw-bold text-white mb-5">
                                 We Are open And Welcoming Patients
@@ -722,7 +723,7 @@
     <footer class="footer bgDark pt-60" id="footer">
         <div class="container">
             <div class="row g-4 justify-content-between  textColorLight2">
-                <div class="col-lg-4">
+                <div class="col-sm-6 col-lg-4">
                     <div class="footerCol">
                         <a href="index.html" class="d-inline-block mb-20">
                             <img class="logoSmall" src="assets/images/logoWhite.png" alt="">
@@ -747,7 +748,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-sm-6 col-lg-2">
                     <div class="footerCol">
                         <h1 class="text-white text-capitalize fontPoppins fw-bold">Other links</h1>
 
@@ -791,7 +792,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-sm-6 col-lg-2">
                     <div class="footerCol">
                         <h1 class="text-white text-capitalize fontPoppins fw-bold">Our services</h1>
 
@@ -835,7 +836,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3">
+                <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="footerCol">
                         <h1 class="text-white text-capitalize fontPoppins fw-bold">Our services</h1>
 
@@ -911,7 +912,6 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/masonry.pkgd.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>

@@ -17,3 +17,9 @@
   background-image: -webkit-linear-gradient(0deg, rgb(54, 96, 217) 0%, rgb(9, 152, 230) 100%);
   background-image: -ms-linear-gradient(0deg, rgb(54, 96, 217) 0%, rgb(9, 152, 230) 100%);
 }
+
+@media (max-width: 767.98px) {
+  .btnPrimary {
+    padding: 1.2rem 1.8rem;
+  }
+}

@@ -16,10 +16,7 @@ const teastimonialSwiper = new Swiper(".testimonialSwiper", {
   loop: true,
   spaceBetween: 30,
   breakpoints: {
-    360: {
-      slidesPerView: 2,
-    },
-    768: {
+    992: {
       slidesPerView: 2,
     },
   },
@@ -32,13 +29,13 @@ const teastimonialSwiper = new Swiper(".testimonialSwiper", {
 // Testimonial Carousel
 const teamSwiper = new Swiper(".teamSwiper", {
   loop: true,
-  spaceBetween: 30,
+  spaceBetween: 25,
   breakpoints: {
-    360: {
+    600: {
       slidesPerView: 2,
     },
-    768: {
-      slidesPerView: 2,
+    992: {
+      slidesPerView: 3,
     },
     1200: {
       slidesPerView: 4,
@@ -50,20 +47,7 @@ const teamSwiper = new Swiper(".teamSwiper", {
   },
 });
 
-$(".grid").masonry({
-  itemSelector: ".grid-item",
-  columnWidth: ".grid-sizer",
-  percentPosition: true,
-});
-
-/**
- *
- *
- *
- *
- *
- */
-
+// Gallery Image Popup
 $(document).ready(function () {
   $(".popup-image").magnificPopup({
     type: "image",
